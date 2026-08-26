@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 1 Assignment — PSCI 1102</title>
+<meta name="description" content="Week 1 assignment for PSCI 1102: choosing a country and finding a household survey.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="site-title">
+      <h1><a href="../index.html">PSCI 1102</a></h1>
+      <span class="role">Global Development: Data, Politics and Practice &middot; Fall 2026</span>
+    </div>
+    <nav class="main-nav">
+      <div class="wrap" style="padding:0;">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../syllabus.html">Syllabus</a></li>
+          <li><a href="../schedule.html" class="active">Schedule</a></li>
+          <li><a href="../../../teaching.html">&larr; Back to Teaching</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-title">Week 1 Assignment</h1>
+  <p class="lede">Choosing a country and finding a household survey</p>
+
+  <p>
+    Across the semester you&rsquo;ll spend a good amount of time learning about households in a country that
+    you care about. Given the subject of the class, I recommend you focus on a country in the Global South,
+    but if you have a particular interest in poverty and/or governance in a wealthy country, feel free to
+    focus on it as long as you have a good justification. You will learn about those households by working
+    with a household survey. &ldquo;Household survey&rdquo; data is data where the unit of observation is an
+    individual or a household. A typical survey will interview hundreds or thousands of individuals. In the
+    dataset, each respondent is a row and each column is a variable corresponding to a survey question (i.e.
+    &lsquo;How old are you?&rsquo; or &lsquo;How much do you trust the government?&rsquo; or&hellip;.). Household
+    survey is <strong>not</strong> country-level data, i.e. GDP growth for Tunisia or annual poverty rates for
+    Guatemala or inflation rates for Nepal &mdash; these country-level data are typically built from household
+    survey data itself.
+  </p>
+
+  <p>As you look for household data, there are a few things to pay attention to:</p>
+  <ul class="plain-list">
+    <li><strong>Purpose:</strong> Surveys are often designed for very specific purposes (i.e. labor market surveys or health surveys or financial access surveys or drug use surveys or governance surveys or whatever); try to find a survey that reflects your substantive interest.</li>
+    <li><strong>Time:</strong> there is a lot of both old and new microdata available on the web. Pay attention to when it was collected. You might actually care more about earlier data (for instance, if you care about food prices, you might be drawn to 2010 when there was an important spike in global food prices that prompted mass protests and the failure of governments in many countries).</li>
+    <li><strong>Sample size and sample frame:</strong> these are very important and will require some digging into the documentation for potential surveys. The sample size describes the number of individuals surveyed; typically, surveys become more representative of their population of interest as they get larger. Sample frame describes the target population, how a sample is drawn from that population, and how the data was collected. Target populations vary hugely &mdash; they could be farmers in one specific region of a country or adults who live in slums or women who work outside the home or children in middle school or all adults in a country. Surveys can also be conducted online or via phone or in-person; this matters a <em>lot</em> in countries where internet access or cell phone access is limited. Make sure the target population and mode of data collection reflect the population that you care about!</li>
+  </ul>
+
+  <p>
+    Here are a series of potential sources for household/microdata (<strong>note that many of these require
+    registration, which can take a few days, so start now!</strong>):
+  </p>
+
+  <ul class="plain-list">
+    <li><a href="http://microdata.worldbank.org/index.php/home" target="_blank" rel="noopener">World Bank Microdata Library</a> should be the first place to look for most of you. Simply type in the name of the country you are interested in and peruse the most recent set of surveys. As you look, you&rsquo;ll want to make sure the survey population is one you&rsquo;re interested in and that there are questions in the survey of interest to you. Once you&rsquo;ve identified the survey you are interested in, click on &ldquo;Get Microdata.&rdquo; Be sure that the survey is sampling households (not something like firms or teachers or whatever).</li>
+    <li><a href="https://dhsprogram.com/" target="_blank" rel="noopener">Demographic and Health Surveys</a> and the World Health Organization&rsquo;s <a href="https://apps.who.int/healthinfo/systems/surveydata/index.php/collections/whs" target="_blank" rel="noopener">World Health Surveys</a> are particularly good if you care about health.</li>
+    <li>UNICEF&rsquo;s <a href="https://mics.unicef.org/" target="_blank" rel="noopener">Multiple Indicator Cluster Surveys</a> (MICS) are particularly strong on nutrition and water access.</li>
+    <li>There are also a large number of cross-national surveys &mdash; Afrobarometer, LAPOP, Latinobar&oacute;metro, Asia barometer, etc. tend to be focused on governance issues that might be appropriate for your country and topic of interest (yes, there can be &ldquo;poverty&rdquo; wrt access to public services or political voice!). These tend to deal more with political issues, but they often have basic questions on socio-economic status.</li>
+    <li>There are also an enormous number of country-specific surveys. For instance, the <a href="https://www.rand.org/health/surveys/FLS/IFLS.html" target="_blank" rel="noopener">Indonesian Family Life Survey</a> is one of the longest running panel surveys in the world. To find something like this you&rsquo;ll have to focus your survey on a specific country.</li>
+    <li>Many governments also collect their own surveys and sometimes provide public access to the underlying microdata. For instance, the Brazilian government <a href="https://cetic.br/en/pesquisa/domicilios/microdados/" target="_blank" rel="noopener">provides access to the microdata</a> for its standard household survey. Check what the government for your country provides access to.</li>
+  </ul>
+
+  <p>Other potential sources:</p>
+  <ul class="plain-list">
+    <li><a href="http://unstats.un.org/unsd/hhsurveys/" target="_blank" rel="noopener">UN Household Surveys</a></li>
+    <li><a href="http://www.ihsn.org/home/" target="_blank" rel="noopener">Intl Household Survey Network</a></li>
+    <li><a href="http://www.ifpri.org/datasets" target="_blank" rel="noopener">International Food Policy Research Network</a></li>
+    <li><a href="http://ipl.econ.duke.edu/dthomas/dev_data/" target="_blank" rel="noopener">Bureau for Research and Economic Analysis of Development</a></li>
+  </ul>
+
+  <div class="callout">
+    After you have found a country and survey you are happy with, answer the questions below and submit your
+    <strong>1-page write-up</strong> as a file on Canvas <strong>by 5p on Tuesday, Sept 1</strong>:
+  </div>
+
+  <ol class="project-list">
+    <li>What country are you analyzing, and why?</li>
+    <li>What is the source of your data? (List the organization from which it was obtained, any individuals instrumental in its collection, and a URL where the data can be found.)</li>
+    <li>What time period and geographic area is covered in your data? And what are the costs/benefits of focusing on data from that time/place?</li>
+    <li>What is the sample frame (i.e. who is the targeted population)? And how does the sample frame limit who your data can generalize to in your country?</li>
+    <li>How was the sample collected (in-person, phone, online, or&hellip;), and does the mode of data collection limit the sample in any way?</li>
+  </ol>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    PSCI 1102 &middot; Department of Political Science, University of Pennsylvania &middot;
+    <a href="../../../index.html">Erik Wibbels</a>
+  </div>
+</footer>
+</body>
+</html>
