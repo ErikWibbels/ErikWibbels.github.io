@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 5 Assignment | PSCI 1102</title>
+<style>
+  .psci-assignment {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2rem 1rem 3rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #1f2328;
+  }
+  .psci-assignment h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.75rem;
+    margin: 0 0 1rem;
+    color: #011f5b;
+  }
+  .psci-assignment h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 2rem 0 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #990000;
+    color: #011f5b;
+  }
+  .psci-assignment .due {
+    background: #f3f5f9;
+    border-left: 4px solid #011f5b;
+    padding: 0.75rem 1rem;
+    margin: 0 0 1.5rem;
+  }
+  .psci-assignment ul { padding-left: 1.4rem; margin: 0.4rem 0; }
+  .psci-assignment li { margin: 0.35rem 0; }
+  .psci-assignment li > ul { margin-top: 0.3rem; }
+  .psci-assignment a { color: #990000; }
+  .psci-assignment a:hover { color: #011f5b; }
+  .psci-assignment .optional-tag {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #990000;
+  }
+</style>
+</head>
+<body>
+<main class="psci-assignment">
+
+  <h1>Week 5 Assignment</h1>
+
+  <p class="due">By <strong>Tuesday, 9/30 at 5p</strong> complete one of the two assignments below. The first option bears on your caloric consumption, food costs, etc. The second option bears on borrowing costs and the rate of return on an education at Penn. Please let me know in your submitted assignment if you would rather <em>not</em> have your assignment discussed in class for whatever reason.</p>
+
+  <h2>Option 1: Food Costs</h2>
+  <ul>
+    <li>Keep track of your calorie count (including sodas, snacks, etc.) for a <strong>typical 24-hour period</strong>. Do NOT shrink your typical consumption for the sake of this exercise. Carefully keep track of how much those calories cost. This is very easy with any of the calorie counter apps available for your phone. Give the data to AI (or do it yourself in R) and:
+      <ul>
+        <li>Graph the cumulative distribution of your calorie intake over the 24-hour period.</li>
+        <li>Graph the cumulative distribution of food costs over the 24-hour period.</li>
+        <li>How much does it cost for you to eat normally for 24 hours?</li>
+        <li>Calculate the annual cost for you to eat normally on the basis of the 24 hours.
+          <ul>
+            <li>How does the total cost compare with the US Census Bureau&rsquo;s poverty level for an individual? Reflect on the difference.</li>
+            <li>How does the total compare with the poverty level you developed for your country in week 2 of class? Reflect on the difference.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><span class="optional-tag">Optional, but instructive and recommended:</span> Keep track of your calorie count (including sodas, snacks, etc.) for a 24-hour period when you eat <strong>as little as you can reasonably</strong> get away with. Carefully keep track of how much those calories cost. This is very easy with any of the calorie counter apps available for your phone.
+      <ul>
+        <li>Graph the cumulative distribution of your calorie intake over the 24-hour period.</li>
+        <li>Graph the cumulative distribution of food costs over the 24-hour period.</li>
+        <li>How much does it cost for you to eat at this rationed rate for 24 hours?</li>
+        <li>Calculate the annual cost for you to eat at the rationed rate on the basis of the 24 hours.
+          <ul>
+            <li>How does the total cost compare with the Census Bureau&rsquo;s poverty level for an individual? Reflect on the difference.</li>
+            <li>How does the total compare with the poverty level you developed in week 2 of class? Reflect on the difference.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Option 2: The Cost of and Return on a Penn Education</h2>
+  <ul>
+    <li>Imagine you had to finance the full price of a 4-year Penn education at current federal student loan interest rate of 6.52% per year. Include both tuition and basic cost-of-living.
+      <ul>
+        <li>Use a compound interest calculator to calculate what your monthly payments and final accumulated payments would be over 20 years.</li>
+        <li>Graph the cumulative distribution of your payments.</li>
+        <li>Now do the same thing, but taking into account the <a href="https://www.usnews.com/best-colleges/university-of-pennsylvania-3378/paying" target="_blank" rel="noopener">average first year scholarship of $70,867</a>.</li>
+        <li>Use the Center on Education and the Workforce <a href="https://cew.georgetown.edu/cew-reports/roi2025/#data" target="_blank" rel="noopener">online tools</a> to estimate the 20-year return on a degree from Penn (careful: make sure you look at the latest data). Pay attention to how they calculate ROI. Do the same thing for a less elite university of your choice&mdash;maybe one where a friend goes or that you got into.</li>
+        <li>What rate of return on your education would justify the investment in/borrowing for the education? How do Penn and the other university compare?</li>
+      </ul>
+    </li>
+    <li>Finally, how do monthly payments and total payments on your student loan compare to the data in the household data you have been working with for your country? Estimate what share of households in your household data would be able to afford a Penn education without borrowing.</li>
+  </ul>
+
+</main>
+</body>
+</html>
